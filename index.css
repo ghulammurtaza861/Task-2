@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url('./bg1.webp') ;
+    background-size: cover;
+}
+.Login-form {
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: #fff;
+}
+.Login-form h1 {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px  0;
+}
+.Login-form p {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.Login-form input {
+    font-size: 12px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+.Login-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 15px 10px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+    
+}
+
+.Login-form button:hover {
+    background-color: rgb(145, 145, 240);
+    color: #fff;
+
+}
